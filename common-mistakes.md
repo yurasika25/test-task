@@ -169,14 +169,11 @@
       }
       ```
 
-8. **Use `name` for String representation of enum constants.**
+8. **Use `name` for the String representation of enum constants.**
     - Use `enumConstant.name` instead of `enumConstant.toString()` for a reliable String representation.
 
 9. Don't forget how to name constants according to [style guide](https://mate-academy.github.io/style-guides/java/java.html#s5.2.4-constant-names). We have only Java style guide for now, so feel free to use it
 
-10. **Pay attention to access modifiers**
-    - Classes, fields, constructors, methods must have access modifiers otherwise default will be used that isn't a good practice.
-
-11. **Write informative commit messages and PR descriptions.**
+10. **Write informative commit messages and PR descriptions.**
     - Avoid vague or generic messages. Be specific about the changes you made.
     - Bad example of commit/PR message: `done`/`fixed`/`commit`/`solution`/`added homework`/`my solution` and other one-word, abstract or random messages.
